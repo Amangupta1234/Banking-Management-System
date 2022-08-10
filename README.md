@@ -2,19 +2,10 @@
 Banking Management System Using C++
 
 
-
-
-
-
-
 #include<iostream>
-
 #include<fstream>
-
 #include<cctype>
-
 #include<iomanip>
-
 using namespace std;
 
 
@@ -211,7 +202,7 @@ void display_sp(int n)
 		cout<<"File could not be open !! Press any Key...";
 		return;
 	}
-	cout<<"\nBALANCE DETAILS\n";
+		cout<<"\nBALANCE DETAILS\n";
 
     	while(inFile.read(reinterpret_cast<char *> (&ac), sizeof(account)))
 	{
